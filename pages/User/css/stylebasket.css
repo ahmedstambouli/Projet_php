@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+
+  } 
+
+  .center {
+    margin-top: 1%;
+    text-align: center;
+  }
+
+  .center h1 {
+    font-size: 50px;
+  }
+  .container{
+    margin: 10%;
+    margin-top: 5%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 20px;
+  }
+
+  .Header{
+    margin: auto;
+    width: 90%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+   .Heading{
+    font-size: 20px;
+    font-family: ‘Open Sans’;
+    font-weight: 700;
+    color: #2F3841;
+   }
+   .Action{
+    font-size: 14px;
+    font-family: ‘Open Sans’;
+    font-weight: 600;
+    color: #E44C4C;
+    cursor: pointer;
+    border-bottom: 1px solid #E44C4C;
+   }
+
+
+   .grid-container2 {
+    display: grid;
+    grid-template-columns: 300px 300px auto auto auto;
+    padding: 10px;
+    margin-top: 2%;
+  }
+  .grid-item2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 0px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+
+
+
+
+   .grid-container {
+    display: grid;
+    grid-template-columns: 300px 300px auto auto auto;
+    padding: 10px;
+    
+  }
+ 
+
+  .grid-itemphoto {
+    border: 0px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    height: 28vh;
+    text-align: center;
+    background-image: url("../img/voiture1.jpg");
+    background-size: cover;
+    border-radius: 20px;
+  }
+
+  .grid-itemp {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 0px solid rgba(0, 0, 0, 0.8);
+   
+  }
+  .grid-itemp p {
+    font-size: 20px;
+   margin-top: 25%;
+   text-align: center;
+  }
+
+  .grid-iteminput {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 0px solid rgba(0, 0, 0, 0.8);
+    font-size: 30px;
+    text-align: center;
+  }
+  .grid-iteminput input{
+
+    margin-top: 25%;
+  }
+
+  .grid-itemprix {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 0px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .grid-itemprix p {
+    font-size: 20px;
+   margin-top: 25%;
+   text-align: center;
+  }
+
+
+  
+
+
+  .input-div{
+	position: relative;
+    display: grid;
+    grid-template-columns: 7% 93%;
+    margin-right: 10px;
+}
+
+
+
+
+.input-div > div > input{
+	border-color:rgb(201, 201, 201) ;
+	width: 50%;
+	padding: 0.5rem 0.7rem;
+	font-size: 1rem;
+	color: rgb(0, 0, 0);
+	font-family: 'poppins', sans-serif;
+    background-color: rgb(235, 235, 235);
+    border-radius: 50px;
+}
+
+
+.btn{
+	width: 20%;
+	height: 40px;
+	border-radius: 25px;
+	outline: none;
+	border: none;
+	background-image: linear-gradient(to right, #24201b, #24201b, #24201b);
+	background-size: 100%;
+	font-size: 1rem;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	margin: 1rem 0;
+	cursor: pointer;
+   margin-left: 75%;
+   
+}
+
+
+  

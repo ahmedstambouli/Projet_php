@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+
+  }
+
+.container{
+margin: 1%;
+
+}
+  .grid-container {
+    display: grid;
+    grid-template-columns: 30% auto ;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 0x solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    margin-left: 1%;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* text-align: center; */
+  }
+  
+  .img-profil{
+    border-radius: 50%;
+    background-color: gray;
+    width:150px;
+    height:150px;;
+    margin:auto;
+    display:block;
+    
+}
+
+.grid-item  h2 {
+    text-align: center;
+}
+
+.grid-item p {
+    font-size: large;
+    margin-top: 5%;
+}
+
+.grid-item p span {
+
+    font-weight: bold;
+}
+
+
+
+
+
+.input-div{
+	position: relative;
+    display: grid;
+    grid-template-columns: 7% 93%;
+    margin: 20px 0;
+}
+
+.login-content .input-div.one{
+	margin-top: 0;
+}
+
+.input-div > div{
+  position: relative;
+    /* height: 45px; */
+}
+
+
+.input-div > div > label{
+	position: absolute;
+	left: 10px;
+    margin-top: -5%;
+	transform: translateY(-50%);
+	color: rgb(29, 28, 28);
+	font-size: 18px;
+	transition: .3s;
+}
+
+
+
+
+
+.input-div > div > input{
+	position: absolute;
+	border-color:rgb(201, 201, 201) ;
+	width: 100%;
+	padding: 0.5rem 0.7rem;
+	font-size: 1rem;
+	color: rgb(0, 0, 0);
+	font-family: 'poppins', sans-serif;
+    background-color: rgb(235, 235, 235);
+    border-radius: 50px;
+}
+
+
+
+.input-div > div > textarea{
+	
+	width: 100%;
+    border-radius: 10px;
+    padding: 1%;
+    font-size: 1rem;
+
+	color: rgb(0, 0, 0);
+	font-family: 'poppins', sans-serif;
+    background-color: rgb(235, 235, 235);
+    margin-top: -3%;
+    
+}
+
+
+
+
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto ;
+    /* background-color: #2196F3; */
+    padding: 10px;
+  }
+  .grid-item2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 0px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    margin-top: 1%;
+    margin-left: 1%;
+    /* text-align: center; */
+  }
+
+  .btn{
+	width: 20%;
+	height: 40px;
+	border-radius: 25px;
+	outline: none;
+	border: none;
+	background-image: linear-gradient(to right, #24201b, #24201b, #24201b);
+	background-size: 100%;
+	font-size: 1rem;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	margin: 1rem 0;
+	cursor: pointer;
+    margin-top: -2%;
+    margin-left: 5%;
+}
+
+
+.btnc{
+	width: 20%;
+	height: 40px;
+	border-radius: 25px;
+	outline: none;
+	border: none;
+	background-image: linear-gradient(to right, #24201b, #24201b, #24201b);
+	background-size: 100%;
+	font-size: 1rem;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	margin: 1rem 0;
+	cursor: pointer;
+    margin-top: -2%;
+   
+}
+
+
+
+.btnc:hover{
+	background-image: linear-gradient(to right, #ff0000, #ff0000, #ff0000);
+}
+
+
